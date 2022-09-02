@@ -1,4 +1,10 @@
 # Converting Retail PSP to TT
+
+## Features/automations
+build.sh:
+- Puts you in VIM automatically exactly where you need to modify anything and builds it
+
+## Process
 1. Copy PSP Tool to Memory Stick
 
 2. Run PSP Tool
@@ -17,7 +23,7 @@
 <img align="center" src="https://raw.githubusercontent.com/HackZy01/CEX2DEX-PSP/main/sources/zecxao_hxd_screenshot.png"> 
 Make sure you also note down the next 0x10 bytes (these will be used to validate the certificate as well as if you're doing everything properly)
 
-9. On the psp_cex2dex program, replace buf2 with those bytes, (in build.sh) this will be your idps certificate without the cmac.
+9. buf2 will be your idps certificate without the cmac. Write it down so you can use it in build.sh
 
 10. Again on PSP Tool 1.0, select About -> System Information -> (on sys info screen) push right once -> (on next screen) push right again, you should see the fuseid, it should be exactly 6 bytes. this is the value that generates all of the perconsole keys. we'll use this value to get our own cmac key for our own console.
 
@@ -62,3 +68,6 @@ The first section as well as the second one are identical so search for the old 
 18. exit the program. From now on you have two options:
 
 19. If you have a phat 1000 you can go to ofw DEX (6.60 TT works with the debug settings and install pkg files)
+
+If you have a slim 2000 or a brite 3000 you can install 5.02 M33 TT (this also works on the phat 1000 btw)
+There are tutorials for this so i won't bother you explaining how to do it (google is your friend)
