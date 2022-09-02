@@ -71,3 +71,6 @@ The first section as well as the second one are identical so search for the old 
 
 If you have a slim 2000 or a brite 3000 you can install 5.02 M33 TT (this also works on the phat 1000 btw)
 There are tutorials for this so i won't bother you explaining how to do it (google is your friend)
+
+## This is just a fan project
+All credits go to zecoaxo
