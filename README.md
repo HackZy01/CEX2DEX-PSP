@@ -3,6 +3,7 @@
 ## Features/automations
 build.sh:
 - Puts you in VIM automatically exactly where you need to modify anything and builds it
+- All the tools you need are right at your fingertips in this repo
 
 ## Process
 1. Copy PSP Tool to Memory Stick
